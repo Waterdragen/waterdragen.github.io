@@ -2,7 +2,7 @@ const splitText = all_text.split(' ');
 let testLength = 25;
 let maxSplitPoint = splitText.length-testLength;
 
-const colemak = 'qazwrxfscptdbgvjmklnhue,yi.;o/'
+const colemak = 'qazwrxfscptdbgvjmklnhue,yi.;o/ '
 const rstlne = 'qagwsxdecfrvzl?;hbunjkimyo,pt. '
 const twof = 'jxmwsdrnlctbzgvqhyuafie,op.k;? '
 const onef = 'vgfcdnlatreoismhupwy.b,xkzjq;? '

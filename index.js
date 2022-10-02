@@ -22,7 +22,7 @@ $(document).ready(() => {
         .dropdown({
             values: [
 				{
-                    name: 'Colemak',
+                    name: 'Colemak DH',
                     value: 'colemak',
                     selected: true
                 },

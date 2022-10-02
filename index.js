@@ -28,8 +28,7 @@ $(document).ready(() => {
                 },
                 {
                     name: 'RSTLNE',
-                    value: 'rstlne',
-                    selected: false
+                    value: 'rstlne'
                 },
                 {
                     name     : '2 Finger',
@@ -41,7 +40,7 @@ $(document).ready(() => {
                 }
             ],
             onChange: function(value, text, $selectedItem) {
-				if (value == 'colemak'){
+				if (value === 'colemak'){
 					setLayout(colemak)
 				} else if (value === 'rstlne') {
                     setLayout(rstlne)
